@@ -1,0 +1,146 @@
+.bg {
+    display: block;
+    min-height: 100%;
+    min-width: 100vw;
+    width: 100%;
+    height: auto;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    background: url('~/../../images/smiley.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.wrapper {
+    color: #fff;
+    font-family: fantasy;
+    min-height: 100%;
+    min-width: 100vw;
+    width: 100%;
+    height: auto;
+    top: 10px;
+    left: 0;
+    position: relative;
+    right: 0;
+    z-index: 2;
+    padding: 0 10px;
+}
+
+.formPanel {
+    margin-top: 15px;
+}
+
+h4 {
+    color: #fff;
+    font-size: 25px;
+}
+
+h2 {
+    color: cyan;
+    margin-top: 10px;
+}
+
+a {
+    cursor: pointer;
+    color: #F5F5F5;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.rangeText {
+    color: red;
+}
+
+.ratingForm {
+   margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.star-rating {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.delightPanel {
+    background: none;
+}
+
+.star-rating .star {
+    padding: 1px;
+    color: #ccc;
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.star-rating .star.filled {
+    color: #ffd700;
+}
+
+.wrapper {
+    display: table;
+}
+
+.delight {
+    float: none;
+    margin: 0 auto;
+}
+.errorMsg{
+    color:  #DEDE27;
+    padding :5px;
+}
+.noBorder{
+    border:none;
+}
+
+.rangeTxt {
+    margin-top: 10px;
+    margin-left: 10%;
+    font-size: 40px;
+    font-family: initial;
+}
+
+.chart-color1 {
+    fill: #666666;
+    transition: all 0.2s;
+}
+
+.chart-color2 {
+    fill: #81d8d0
+}
+
+.chart-color3 {
+    fill: #ffbd55
+}
+
+.chart-color4 {
+    fill: #ff77aa
+}
+
+.chart-color5 {
+    fill: #9ee874
+}
+
+.needle,
+.needle-center {
+    fill: #FFA07A
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .delight{
+        float: left;
+    }
+
+}
